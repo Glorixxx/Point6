@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Page</title>
-    <!-- Подключение Google Fonts -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Подключение иконок Font Awesome -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Подключение CSS-стилей -->
+    
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -22,7 +22,29 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-
+        .container2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            background-color: black;
+            width: 90%;
+            height: 500px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .container3{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin: 20px;
+         width: 500px;
+         height: 200px;
+         background-color: white;
+         color: black;
+         border-radius: 10%;
+        }
         .site-header {
             background-color: #333;
             color: #fff;
@@ -122,7 +144,6 @@
     </style>
 </head>
 <body>
-    <!-- Шапка сайта -->
     <header class="site-header">
         <div class="container">
             <div class="logo">
@@ -143,43 +164,86 @@
         </div>
     </header>
 
-    <!-- Основной баннер -->
-    <section class="hero-section">
-        <div class="container">
-            <h1>Discover the Latest Trends</h1>
-            <p>Shop our exclusive collections now</p>
-            <a href="#" class="btn-primary">Shop Now</a>
-        </div>
-    </section>
+    <div class="container2">
+        <h1>Discover the Latest Trends</h1>
+        <p>Shop our exclusive collections now</p>
+        <div class="container3">Image</div>
+    </div>
 
-    <!-- Секция популярных товаров -->
-    <section class="featured-products">
-        <div class="container">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <div class="product-item">
-                    <img src="https://via.placeholder.com/300x400?text=Elegant+Dress" alt="Elegant Dress">
-                    <h3>Elegant Dress</h3>
-                    <p>$129.99</p>
-                </div>
-                <div class="product-item">
-                    <img src="https://via.placeholder.com/300x400?text=Stylish+Jacket" alt="Stylish Jacket">
-                    <h3>Stylish Jacket</h3>
-                    <p>$199.99</p>
-                </div>
-                <div class="product-item">
-                    <img src="https://via.placeholder.com/300x400?text=Casual+Shoes" alt="Casual Shoes">
-                    <h3>Casual Shoes</h3>
-                    <p>$89.99</p>
-                </div>
+<section class="featured-products">
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Elegant+Dress" alt="Elegant Dress">
+                <h3>Elegant Dress</h3>
+                <p>$129.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Stylish+Jacket" alt="Stylish Jacket">
+                <h3>Stylish Jacket</h3>
+                <p>$199.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Casual+Shoes" alt="Casual Shoes">
+                <h3>Casual Shoes</h3>
+                <p>$89.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Classic+Handbag" alt="Classic Handbag">
+                <h3>Classic Handbag</h3>
+                <p>$159.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Modern+Watch" alt="Modern Watch">
+                <h3>Modern Watch</h3>
+                <p>$249.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Sporty+Backpack" alt="Sporty Backpack">
+                <h3>Sporty Backpack</h3>
+                <p>$99.99</p>
+            </div>
+
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Leather+Belt" alt="Leather Belt">
+                <h3>Leather Belt</h3>
+                <p>$39.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Summer+Hat" alt="Summer Hat">
+                <h3>Summer Hat</h3>
+                <p>$29.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Trendy+Sunglasses" alt="Trendy Sunglasses">
+                <h3>Trendy Sunglasses</h3>
+                <p>$59.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Formal+Shirt" alt="Formal Shirt">
+                <h3>Formal Shirt</h3>
+                <p>$79.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Denim+Jeans" alt="Denim Jeans">
+                <h3>Denim Jeans</h3>
+                <p>$99.99</p>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x400?text=Winter+Coat" alt="Winter Coat">
+                <h3>Winter Coat</h3>
+                <p>$249.99</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Футер сайта -->
     <footer class="site-footer">
         <div class="container">
             <p>&copy; 2024 Fashion Brand. All rights reserved.</p>
+            <p>If you have quest</p>
+            <p>Write to our <a href="https://mail.ru/">mail</a></p>
         </div>
     </footer>
 </body>
